@@ -109,14 +109,14 @@ footer div a {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #D6D1B1;
-
 }
 
 .box2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
+    width: 40%;
+    min-width: 450px;
     margin: 10px;
     align-items: center;
 }
@@ -129,11 +129,13 @@ footer div a {
     border-radius:8px;
     padding: 7px;
     margin-bottom: 3px;
-    width:40%;
+    width:90%;
+
 }
 
 #welcome-pic {
-    width: 40%;
+    max-width: 550px;
+    min-width: 450px;
     border-radius: 8px;
     margin: 10px;
 }
