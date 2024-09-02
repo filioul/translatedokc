@@ -99,6 +99,7 @@ footer div a {
 
 .gen-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #d6d1b1;
