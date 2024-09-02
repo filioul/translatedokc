@@ -126,10 +126,12 @@ footer div a {
     padding: 7px;
     margin-bottom: 3px;
     max-width: 955px;
+    min-width: 450px;
 }
 
 #welcome-pic {
     max-width: 550px;
+    min-width: 450px;
     border-radius: 8px;
     margin: 10px;
 }
