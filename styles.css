@@ -104,6 +104,8 @@ footer div a {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #D6D1B1;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .box2 {
@@ -270,6 +272,8 @@ svg {
   height: auto;
   object-fit: contain;
 }
+
+
 
 @media screen and (max-width:650px){
     .col{
