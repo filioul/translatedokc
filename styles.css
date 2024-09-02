@@ -261,21 +261,20 @@ svg {
     padding: 10px;
 }
 
+.book-pick img,
+#welcome-pic img,
+.col img {
+  width: 100%;
+  max-width: 100;
+  height: auto;
+  object-fit: contain;
+}
+
 @media screen and (max-width:650px){
     .col{
         width:90%;
         object-fit: contain;
     }
-
-    .book-pick img,
-    #welcome-pic img,
-    .col img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
-
     .col2{
         width:100%
     }
