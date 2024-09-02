@@ -264,14 +264,17 @@ svg {
 @media screen and (max-width:650px){
     .col{
         width:90%;
+        object-fit: contain;
     }
 
     .book-pick img{
-        width: 70%
+        width: 70%;
+        object-fit: contain;
     }
 
     #welcome-pic{
-        width:70%
+        width:70%;
+        object-fit: contain;
     }
 
     .col2{
