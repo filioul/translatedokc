@@ -1,0 +1,264 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    color:#EFF6DB;
+    margin: 0;
+
+}
+
+nav {
+    overflow: hidden;
+    background-color: #EFF6DB
+    ;
+}
+  
+nav a {
+    float: left;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #fe5555;
+  }
+
+nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #D6D1B1;
+}
+
+#logo-main {
+    padding: 0;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+#logo-main img {
+    width: 42px
+}
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #fe5555;
+    color:#EFF6DB
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 75s linear infinite;
+  }
+  
+  .marquee p {
+    display: inline-block;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+footer {
+   background-color: #383c2c;
+   width:100%;
+   font-family: "Chakra Petch", sans-serif;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   box-shadow: 0 50vh 0 50vh #383c2c;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer div a {
+    padding: 4px;
+    font-size: 10px;
+    color: #EFF6DB;
+}
+
+#logo-footer {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+}
+
+#social-links {
+    padding-left: 50px;
+}
+
+.gen-container {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D6D1B1;
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 450px;
+    margin: 10px;
+    align-items: center;
+}
+
+.textbox {
+    color:#fe5555;
+    text-align:center;
+    background-color: #EFF6DB;
+    border: 1px dashed;
+    border-radius:8px;
+    padding: 7px;
+    margin-bottom: 3px;
+    max-width: 955px;
+}
+
+#welcome-pic {
+    max-width: 550px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#faq-box {
+    margin: 10px;
+    width: 90%;
+}
+
+#faq-box p {
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 700px;
+    color: #383c2c;
+}
+
+#faq-box h4{
+    font-size: larger;
+}
+
+.textbox a {
+    padding: 10px;
+    color: #c2b142;
+}
+
+.book-pick {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF6DB;
+    color:#fe5555;
+    border: 2px dashed;
+    border-color: #fe5555;
+    border-radius:8px;
+    width: 40%;
+    min-width: 440px;
+    padding: 10px;
+    margin: 7px;
+}
+
+.book-pick div {
+    width: 50%;
+    justify-content: center;
+}
+.book-pick img {
+    width: 90%;
+    border-radius:8px;
+}
+.book-pick div p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.book-pick div h5 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.book-pick div h6 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.book-pick div a {
+    font-family: "Chakra Petch", sans-serif;
+    color:#c2b142;
+    font-style: underline;
+    padding: 3px;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.date-of-meet {
+    color:#877C2F;
+    font-style: italic;
+}
+
+.map {
+    width: 85%;
+    background-color: #CEB6B6;
+}
+
+svg {
+    background-color: #CEB6B6;
+    fill:#685b5b;
+    width: 100%
+}
+
+.visited {
+    fill:#fe5555
+}
+
+.visited:hover {
+    fill:#c2b142
+}
+
+.visited:focus {
+    fill:#c2b142
+}
+
+.map-container {
+    width: 100%;
+    background-color: #CEB6B6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-box {
+    
+    min-width: 300px;
+    justify-content: center;
+    color:#fe5555;
+    text-align:center;
+    background-color: #EFF6DB;
+    border: 1px dashed;
+    border-radius:8px;
+    padding: 7px;
+    margin-bottom: 3px;
+    max-width: 955px;
+    margin: 10px;
+    padding: 10px;
+}
+
