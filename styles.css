@@ -129,11 +129,11 @@ footer div a {
     border-radius:8px;
     padding: 7px;
     margin-bottom: 3px;
-    max-width: 955px;
+    width:40%;
 }
 
 #welcome-pic {
-    max-width: 550px;
+    width: 40%;
     border-radius: 8px;
     margin: 10px;
 }
