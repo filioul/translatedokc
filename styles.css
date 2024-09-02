@@ -4,11 +4,6 @@ body {
     margin: 0;
 }
 
-@media screen and (max-width:650px){
-    .col{
-        width:100%;
-        }
-    }
 
 nav {
     overflow: hidden;
@@ -268,3 +263,8 @@ svg {
     padding: 10px;
 }
 
+@media screen and (max-width:650px){
+    .col{
+        width:100%;
+        }
+    }
