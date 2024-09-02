@@ -130,7 +130,7 @@ footer div a {
 
 #welcome-pic {
     max-width: 550px;
-    min-width: 300px;
+    min-width: 100px;
     border-radius: 8px;
     margin: 10px;
 }
