@@ -271,7 +271,7 @@ svg {
     max-width: 100%;
   }
 
-@media screen and (max-width:650px){
+@media (max-width:650px){
     .col{
         width:90%;
     }
@@ -281,7 +281,6 @@ svg {
     .col2{
         width:100%
     }
-
     .gen-container {
         flex-direction: column;
     }
