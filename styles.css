@@ -271,7 +271,7 @@ svg {
     max-width: 100%;
   }
 
-@media (max-width:650px){
+@media screen and (max-width:650px){
     .col{
         width:90%;
     }
