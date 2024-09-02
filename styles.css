@@ -267,14 +267,13 @@ svg {
         object-fit: contain;
     }
 
-    .book-pick img{
-        width: 70%;
+    .book-pick img,
+    #welcome-pic img,
+    .col img {
+        width: 100%;
+        max-width: 100;
+        height: auto;
         object-fit: contain;
-    }
-
-    #welcome-pic{
-        width:70%;
-        object-fit: contain; 
     }
 
     .col2{
