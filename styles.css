@@ -274,7 +274,7 @@ svg {
 
     #welcome-pic{
         width:70%;
-        object-fit: contain;
+        object-fit: contain; 
     }
 
     .col2{
