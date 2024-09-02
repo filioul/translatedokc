@@ -2,8 +2,13 @@ body {
     font-family: "Roboto Mono", monospace;
     color:#EFF6DB;
     margin: 0;
-
 }
+
+@media screen and (max-width:650px){
+    .col{
+        width:100%;
+        }
+    }
 
 nav {
     overflow: hidden;
@@ -126,12 +131,10 @@ footer div a {
     padding: 7px;
     margin-bottom: 3px;
     max-width: 955px;
-    min-width: 450px;
 }
 
 #welcome-pic {
     max-width: 550px;
-    min-width: 450px;
     border-radius: 8px;
     margin: 10px;
 }
