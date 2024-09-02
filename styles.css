@@ -268,18 +268,21 @@ svg {
     height: auto; 
     object-fit: contain; 
     border-radius: 8px;
-    max-width: 100%
+    max-width: 100%;
   }
 
 @media screen and (max-width:650px){
     .col{
         width:90%;
     }
-
     .book-pick{
         width:90%;
     }
     .col2{
         width:100%
+    }
+
+    .gen-container {
+        flex-direction: column;
     }
 }
