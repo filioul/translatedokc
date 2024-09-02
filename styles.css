@@ -264,7 +264,11 @@ svg {
 @media screen and (max-width:650px){
     .col{
         width:90%;
-        }
+    }
+
+    .book-pick{
+        width: 80%
+    }
 
     .col2{
         width:100%
