@@ -93,10 +93,6 @@ footer div a {
     height: auto;
 }
 
-#social-links {
-    padding-left: 50px;
-}
-
 .gen-container {
     display: flex;
     flex-direction: row;
