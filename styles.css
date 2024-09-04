@@ -118,15 +118,9 @@ footer div a {
     width:90%;
 }
 
-#welcome-info {
+div#welcome-info {
     width: 40%;
-    color:#fe5555;
-    text-align:center;
-    background-color: #EFF6DB;
-    border: 1px dashed;
-    border-radius:8px;
-    padding: 7px;
-    margin: 3px auto;
+    max-width: 500px;
 }
 
 #welcome-pic {
