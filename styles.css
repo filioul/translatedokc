@@ -107,11 +107,6 @@ footer div a {
     padding: 10px;
 }
 
-#welcome-info {
-    width: 40%;
-    max-width: 650px;
-}
-
 .textbox {
     color:#fe5555;
     text-align:center;
@@ -121,6 +116,17 @@ footer div a {
     padding: 7px;
     margin: 3px auto;
     width:90%;
+}
+
+#welcome-info {
+    width: 40%;
+    color:#fe5555;
+    text-align:center;
+    background-color: #EFF6DB;
+    border: 1px dashed;
+    border-radius:8px;
+    padding: 7px;
+    margin: 3px auto;
 }
 
 #welcome-pic {
