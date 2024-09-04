@@ -196,6 +196,7 @@ footer div a {
 .book-pick div p {
     font-size: 12px;
     text-align: left;
+    padding: 4px;
 }
 
 .book-pick div h5 {
@@ -214,9 +215,9 @@ footer div a {
 
 .book-pick div a {
     font-family: "Chakra Petch", sans-serif;
-    color:#c2b142;
+    color: #877c2f;
     font-style: underline;
-    padding: 3px;
+    padding: 10px;
     margin: 3px;
     font-size: 15px;
 }
