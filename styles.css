@@ -280,6 +280,11 @@ svg {
     .box2 {
         width: 100%
     }
+
+    .box2 div{
+        width: 100%
+    }
+
     .col2{
         width:100%
     }
