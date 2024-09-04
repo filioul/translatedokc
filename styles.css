@@ -111,9 +111,9 @@ footer div a {
     flex-direction: column;
     flex-wrap: wrap;
     width: 40%;
-    min-width: 450px;
-    margin: 10px;
+    margin: 10px auto;
     align-items: center;
+    object-fit: contain;
 }
 
 .textbox {
@@ -129,7 +129,7 @@ footer div a {
 
 #welcome-pic {
     width: 100%; 
-    max-width: 550px; 
+    max-width: 650px; 
     margin: 10px auto;
     border-radius: 8px;
 }
