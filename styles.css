@@ -301,6 +301,6 @@ svg {
     }
     .gen-container {
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 }
