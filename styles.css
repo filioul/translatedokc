@@ -288,11 +288,16 @@ svg {
     .col{
         width:90%;
     }
+
+    #welcome-info {
+        width:90%;
+    }
     .book-pick{
         width:90%;
     }
     .col2{
-        width:100%
+        width:100%;
+        max-width: 100%;
     }
     .gen-container {
         flex-direction: column;
