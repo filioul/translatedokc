@@ -112,30 +112,38 @@ footer div a {
     background-color: #EFF6DB;
     border: 1px dashed;
     border-radius:8px;
-    padding: 7px ;
+    padding: 17px ;
     margin: 3px auto;
     width:90%;
 }
 
 #welcome-info {
-    width: 50%;
+    width: 70%;
     height: fit-content;
+    padding: 10 px;
+}
+
+#welcome-info p {
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 700px;
 }
 
 #index-container {
     align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 #welcome-pic {
-    width: 100%; 
-    max-width: 650px; 
+    max-width: 70%;
     margin: 2px auto;
     border-radius: 8px;
 }
 
 .welcome-pic-div {
-    width: 50%;
-    padding: 7px;
+    width: 70%;
+    padding: 0px;
     margin: 3px auto;
 }
 
