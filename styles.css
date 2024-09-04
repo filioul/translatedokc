@@ -120,7 +120,7 @@ footer div a {
 #welcome-info {
     width: 70%;
     height: fit-content;
-    padding: 10 px;
+    padding: 10px;
 }
 
 #welcome-info p {
@@ -136,7 +136,7 @@ footer div a {
 }
 
 #welcome-pic {
-    max-width: 70%;
+    max-width: 800px;
     margin: 2px auto;
     border-radius: 8px;
 }
