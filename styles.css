@@ -76,7 +76,7 @@ footer div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 20px;
+    padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -108,7 +108,7 @@ footer div a {
     background-color: #EFF6DB;
     border: 1px dashed;
     border-radius:8px;
-    padding: 17px ;
+    padding: 17px auto;
     margin: 3px auto;
     width:90%;
 }
