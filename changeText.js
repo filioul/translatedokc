@@ -77,3 +77,7 @@ function clickedPalestine() {
 function clickedSudan() {
     document.getElementById("country-box").textContent="Sudan: Season of Migration to the North by Tayeb Salih";
 }
+
+function clickedIran() {
+    document.getElementById("country-box").textContent="Iran: Disoriental by Négar Djavadi";
+}
