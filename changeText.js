@@ -81,3 +81,7 @@ function clickedSudan() {
 function clickedIran() {
     document.getElementById("country-box").textContent="Iran: Disoriental by Négar Djavadi";
 }
+
+function clickedChile() {
+    document.getElementById("country-box").textContent="Chile: The Twilight Zone by Nona Fernández";
+}
