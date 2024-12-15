@@ -85,3 +85,7 @@ function clickedIran() {
 function clickedChile() {
     document.getElementById("country-box").textContent="Chile: The Twilight Zone by Nona Fernández";
 }
+
+function clickedDenmark() {
+    document.getElementById("country-box").textContent="Denmark: The Employees by Olga Ravn";
+}
