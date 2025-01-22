@@ -31,7 +31,7 @@ function clickedPoland() {
 }
 
 function clickedMexico() {
-    document.getElementById("country-box").textContent="Mexico: Hurricane Season by Fernanda Melchor";
+    document.getElementById("country-box").textContent="Mexico: Hurricane Season by Fernanda Melchor ❃ Still Born by Guadalupe Nettel";
 }
 
 function clickedSenegal() {
