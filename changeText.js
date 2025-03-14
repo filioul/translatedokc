@@ -89,3 +89,11 @@ function clickedChile() {
 function clickedDenmark() {
     document.getElementById("country-box").textContent="Denmark: The Employees by Olga Ravn";
 }
+
+function clickedIvoryCoast() {
+    document.getElementById("country-box").textContent="Côte d'Ivoire: Standing Heavy by GauZ'";
+}
+
+function clickedGreenland() {
+    document.getElementById("country-box").textContent="Greenland: Last Night in Nuuk by Niviaq Korneliussen";
+}
