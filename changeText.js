@@ -23,7 +23,7 @@ function clickedTaiwan() {
 }
 
 function clickedJapan() {
-    document.getElementById("country-box").textContent="Japan: Kitchen by Banana Yoshimoto";
+    document.getElementById("country-box").textContent="Japan: Kitchen by Banana Yoshimoto ❃ Heaven by Mieko Kawakami";
 }
 
 function clickedPoland() {
