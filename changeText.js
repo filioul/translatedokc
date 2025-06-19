@@ -1,5 +1,5 @@
 function clickedSpain() {
-    document.getElementById("country-box").textContent="Spain: Dogs of Summer by Andrea Abreau";
+    document.getElementById("country-box").textContent="Spain: Dogs of Summer by Andrea Abreau ❃ Living Things by Munir Hachemi";
 }
 
 function clickedSouthKorea() {
