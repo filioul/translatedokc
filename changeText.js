@@ -97,3 +97,7 @@ function clickedIvoryCoast() {
 function clickedGreenland() {
     document.getElementById("country-box").textContent="Greenland: Last Night in Nuuk by Niviaq Korneliussen";
 }
+
+function clickedMauritius() {
+    document.getElementById("country-box").textContent="Mauritius: Riambel by Priya Hein (not translated, oopsie)";
+}
