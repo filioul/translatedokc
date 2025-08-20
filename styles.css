@@ -1,13 +1,16 @@
 body {
     font-family: "Roboto Mono", monospace;
-    color:#EFF6DB;
     margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
 nav {
     overflow: hidden;
-    background-color: #EFF6DB
+    background-color: #262322
     ;
 }
   
@@ -18,11 +21,11 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #fe5555;
+    color: #fff59e;
   }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #D6D1B1;
+    background-color: #63372C;
 }
 
 #logo-main {
@@ -31,15 +34,16 @@ nav a:hover, .dropdown:hover .dropbtn {
     margin-left: 6px;
 }
 
+
 #logo-main img {
-    width: 42px
+    width: 60px
 }
 
 .wrapper {
     max-width: 100%;
     overflow: hidden;
-    background-color: #fe5555;
-    color:#EFF6DB
+    background-color: #63372C;
+    color:#FFF59E
   }
   
   .marquee {
@@ -63,13 +67,17 @@ nav a:hover, .dropdown:hover .dropbtn {
   }
 
 footer {
-   background-color: #383c2c;
-   width:100%;
-   font-family: "Chakra Petch", sans-serif;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   box-shadow: 0 50vh 0 50vh #383c2c;
+    width: 100%;
+    background-color: #63372C;
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 3px solid;
+    border-color:#90AB4E;
+    margin: 0;             
+    padding: 0;            
+    box-sizing: border-box;
 }
 
 footer div {
@@ -83,8 +91,8 @@ footer div {
 
 footer div a {
     padding: 4px;
-    font-size: 10px;
-    color: #EFF6DB;
+    font-size: 15px;
+    color: #FFF59E;
 }
 
 #logo-footer {
@@ -98,15 +106,19 @@ footer div a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #d6d1b1;
+    background-image: url("/Users/lydiafiliou/Desktop/translatedokc/translatedokc/images/background-collage.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
     padding: 10px;
 }
 
+
 .textbox {
-    color:#fe5555;
+    color:#63372C;
     text-align: center;
-    background-color: #EFF6DB;
-    border: 1px dashed;
+    background-color: #fef8c6;
+    border: 2px dashed;
     border-radius:8px;
     padding: 17px auto;
     margin: 3px auto;
@@ -115,8 +127,8 @@ footer div a {
 
 #welcome-info {
     width: 70%;
-    height: fit-content;
     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #welcome-info p {
@@ -145,15 +157,16 @@ footer div a {
 
 #faq-box {
     margin: 10px;
-    width: 90%;
+    width: 70%;
     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #faq-box p {
     margin-left: auto;
     margin-right: auto; 
     max-width: 700px;
-    color: #383c2c;
+    color: #63372C;
 }
 
 #faq-box h4{
@@ -162,7 +175,18 @@ footer div a {
 
 .textbox a {
     padding: 10px;
-    color: #c2b142;
+    color: #90AB4E;
+}
+
+.past-picks-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("/Users/lydiafiliou/Desktop/translatedokc/translatedokc/images/background-collage.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding: 10px;
 }
 
 .book-pick {
@@ -171,15 +195,16 @@ footer div a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #EFF6DB;
-    color:#fe5555;
+    background-color: #fef8c6;
+    color:#63372C;
     border: 2px dashed;
-    border-color: #fe5555;
+    border-color: #63372C;
     border-radius:8px;
     width: 40%;
     padding: 10px;
     margin: 7px auto;
     max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .book-pick div {
@@ -212,7 +237,7 @@ footer div a {
 
 .book-pick div a {
     font-family: "Chakra Petch", sans-serif;
-    color: #877c2f;
+    color: #90AB4E;
     font-style: underline;
     padding: 10px;
     margin: 3px;
@@ -226,30 +251,30 @@ footer div a {
 
 .map {
     width: 85%;
-    background-color: #CEB6B6;
+    background-color: #fef8c6;
 }
 
 svg {
-    background-color: #CEB6B6;
-    fill:#685b5b;
+    background-color: #fef8c6;
+    fill:#63372C;
     width: 100%
 }
 
 .visited {
-    fill:#fe5555
+    fill:#90AB4E
 }
 
 .visited:hover {
-    fill:#c2b142
+    fill:#bac899
 }
 
 .visited:focus {
-    fill:#c2b142
+    fill:#bac899
 }
 
 .map-container {
     width: 100%;
-    background-color: #CEB6B6;
+    background-color: #fef8c6;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -261,9 +286,9 @@ svg {
     
     min-width: 300px;
     justify-content: center;
-    color:#fe5555;
+    color:#63372C;
     text-align:center;
-    background-color: #EFF6DB;
+    background-color:#FFF59E;
     border: 1px dashed;
     border-radius:8px;
     padding: 7px;
@@ -271,6 +296,8 @@ svg {
     max-width: 955px;
     margin: 10px;
     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .col img {
