@@ -183,7 +183,7 @@ footer div a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url("/Users/lydiafiliou/Desktop/translatedokc/translatedokc/images/background-collage.png");
+    background-image: url("images/background-collage.png");
     background-size: contain;
     background-repeat: repeat-y;
     padding: 10px;
