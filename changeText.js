@@ -101,3 +101,7 @@ function clickedGreenland() {
 function clickedMauritius() {
     document.getElementById("country-box").textContent="Mauritius: Riambel by Priya Hein (not translated, oopsie)";
 }
+
+function clickedTurkey() {
+    document.getElementById("country-box").textContent="Turkey: Madonna in a Fur Coat by Sabahattin Ali";
+}
