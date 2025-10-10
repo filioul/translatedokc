@@ -19,7 +19,7 @@ function clickedBelgium() {
 }
 
 function clickedTaiwan() {
-    document.getElementById("country-box").textContent="Taiwan: Notes of a Crocodile by Qiu Miaojin";
+    document.getElementById("country-box").textContent="Taiwan: Notes of a Crocodile by Qiu Miaojin ❃ The Membranes by Ta-Wei Chi";
 }
 
 function clickedJapan() {
