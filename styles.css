@@ -107,11 +107,12 @@ footer div a {
     flex-wrap: wrap;
     justify-content: center;
     background-image: url("images/background-collage.png");
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: contain;
+    background-repeat: repeat;
     padding: 10px;
+    width: 100%;
 }
+
 
 
 .textbox {
@@ -185,7 +186,7 @@ footer div a {
     justify-content: center;
     background-image: url("images/background-collage.png");
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     padding: 10px;
 }
 
