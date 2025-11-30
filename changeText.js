@@ -105,3 +105,7 @@ function clickedMauritius() {
 function clickedTurkey() {
     document.getElementById("country-box").textContent="Turkey: Madonna in a Fur Coat by Sabahattin Ali";
 }
+
+function clickedAustria() {
+    document.getElementById("country-box").textContent="Austria: The Wall by Marlen Haushofer";
+}
