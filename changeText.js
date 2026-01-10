@@ -109,3 +109,7 @@ function clickedTurkey() {
 function clickedAustria() {
     document.getElementById("country-box").textContent="Austria: The Wall by Marlen Haushofer";
 }
+
+function clickedHungary() {
+    document.getElementById("country-box").textContent="Hungary: The Door by Magda Szabò";
+}
