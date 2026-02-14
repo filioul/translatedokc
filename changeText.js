@@ -71,7 +71,7 @@ function clickedFinland() {
 }
 
 function clickedPalestine() {
-    document.getElementById("country-box").textContent="Palestine: Minor Detail by Adania Shibli";
+    document.getElementById("country-box").textContent="Palestine: Minor Detail by Adania Shibli ❃ The Book of Disappearance by Ibtisam Azem";
 }
 
 function clickedSudan() {
