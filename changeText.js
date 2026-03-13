@@ -7,7 +7,7 @@ function clickedSouthKorea() {
 }
 
 function clickedArgentina() {
-    document.getElementById("country-box").textContent="Argentina: Tender is the Flesh by Agustina Bazterrica ❃ Elena Knows by Claudia Piñeiro";
+    document.getElementById("country-box").textContent="Argentina: Crocodiles at Night by Gisela Heffes ❃ Tender is the Flesh by Agustina Bazterrica ❃ Elena Knows by Claudia Piñeiro";
 }
 
 function clickedItaly() {
