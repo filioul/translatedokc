@@ -113,3 +113,7 @@ function clickedAustria() {
 function clickedHungary() {
     document.getElementById("country-box").textContent="Hungary: The Door by Magda Szabò";
 }
+
+function clickedChina() {
+    document.getElementById("country-box").textContent="China: The Three-Body Problem by Cixin Liu";
+}
