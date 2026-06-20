@@ -117,3 +117,7 @@ function clickedHungary() {
 function clickedChina() {
     document.getElementById("country-box").textContent="China: The Three-Body Problem by Cixin Liu";
 }
+
+function clickedRwanda() {
+    document.getElementById("country-box").textContent="Rwanda: Our Lady of the Nile by Scholastique Mukasonga";
+}
