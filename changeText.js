@@ -121,3 +121,7 @@ function clickedChina() {
 function clickedRwanda() {
     document.getElementById("country-box").textContent="Rwanda: Our Lady of the Nile by Scholastique Mukasonga";
 }
+
+function clickedUzbekistan() {
+    document.getElementById("country-box").textContent="Uzbekistan: We Computers by Hamid Ismailov";
+}
