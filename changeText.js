@@ -107,7 +107,7 @@ function clickedTurkey() {
 }
 
 function clickedAustria() {
-    document.getElementById("country-box").textContent="Austria: The Wall by Marlen Haushofer";
+    document.getElementById("country-box").textContent="Austria: The Wall by Marlen Haushofer ❃ The Piano Teacher by Elfriede Jelinek";
 }
 
 function clickedHungary() {
