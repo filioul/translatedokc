@@ -125,3 +125,7 @@ function clickedRwanda() {
 function clickedUzbekistan() {
     document.getElementById("country-box").textContent="Uzbekistan: We Computers by Hamid Ismailov";
 }
+
+function clickedEcuador() {
+    document.getElementById("country-box").textContent="Uzbekistan: Jawbone by Mónica Ojeda";
+}
