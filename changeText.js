@@ -127,5 +127,5 @@ function clickedUzbekistan() {
 }
 
 function clickedEcuador() {
-    document.getElementById("country-box").textContent="Uzbekistan: Jawbone by Mónica Ojeda";
+    document.getElementById("country-box").textContent="Ecuador: Jawbone by Mónica Ojeda";
 }
